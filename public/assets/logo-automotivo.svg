@@ -1,0 +1,5 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80">
+  <rect width="240" height="80" rx="18" fill="#1f2937" />
+  <path d="M30 55 L50 25 L70 55" stroke="#94a3b8" stroke-width="6" fill="none" stroke-linecap="round" />
+  <text x="120" y="50" text-anchor="middle" font-size="28" font-family="'Segoe UI',sans-serif" fill="#e2e8f0" font-weight="600">Automa</text>
+</svg>

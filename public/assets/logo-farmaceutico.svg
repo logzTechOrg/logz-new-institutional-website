@@ -1,0 +1,5 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80">
+  <rect width="240" height="80" rx="18" fill="#111827" />
+  <path d="M35 50 L55 30 L75 50 L95 30 L115 50" stroke="#f472b6" stroke-width="6" fill="none" stroke-linecap="round" />
+  <text x="165" y="50" text-anchor="middle" font-size="24" font-family="'Segoe UI',sans-serif" fill="#fce7f3" font-weight="600">Farmaceutico</text>
+</svg>

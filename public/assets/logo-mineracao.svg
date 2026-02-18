@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80">
+  <rect width="240" height="80" rx="18" fill="#0d1b2a" />
+  <polygon points="40,55 60,25 80,55" fill="#f97316" />
+  <polygon points="95,55 115,25 135,55" fill="#fb923c" />
+  <text x="175" y="50" text-anchor="middle" font-size="26" font-family="'Segoe UI',sans-serif" fill="#ffedd5" font-weight="600">Mineracao</text>
+</svg>
