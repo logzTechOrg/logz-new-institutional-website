@@ -9,6 +9,9 @@ import { WhatsAppFab } from "@/components/ui/whatsapp-fab";
 export const metadata: Metadata = {
   title: "Log Z — Site Institucional",
   description: "Visual consistente com a plataforma Log Z.",
+  icons: {
+    icon: [{ url: "/favicon.ico" }],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
