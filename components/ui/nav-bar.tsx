@@ -103,7 +103,9 @@ export function NavBar() {
 
         <div className="hidden md:flex items-center gap-3 justify-self-end">
               <Link
-                href="/(institucional)/contato"
+                href="https://wa.me/message/JFDMR2UAEGKXJ1"
+                target="_blank"
+                rel="noreferrer"  
                 className="inline-flex items-center justify-center rounded-xl px-6 py-3 text-lg leading-none font-medium bg-[var(--primary)] text-white shadow transition-opacity hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-[var(--ring)]"
               >
                 Fale com a gente
