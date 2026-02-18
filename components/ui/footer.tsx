@@ -48,7 +48,7 @@ export function Footer() {
           <ul className="space-y-2 text-sm text-foreground/70">
             <li>
               <Link 
-                href="https://wa.me/message/3DJHQZ4B6KDYJ1" 
+                href="https://wa.me/message/JFDMR2UAEGKXJ1" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-black hover:text-foreground/90">

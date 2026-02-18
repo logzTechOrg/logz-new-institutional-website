@@ -29,7 +29,7 @@ export default function HomeCta() {
             </p>
             <div className="flex justify-center md:justify-start">
               <Link
-                href="/contato"
+                href="https://wa.me/message/JFDMR2UAEGKXJ1"
                 className="inline-flex items-center justify-center rounded-2xl bg-[var(--primary)] px-8 py-4 text-lg font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400"
               >
                 Fale com um especialista

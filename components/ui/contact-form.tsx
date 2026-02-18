@@ -103,8 +103,8 @@ const sidebarInfo = [
     title: "WhatsApp",
     description: "Fale direto com especialistas",
     action: {
-      label: "+55 (48) 99195-5797",
-      href: "https://wa.me/message/3DJHQZ4B6KDYJ1",
+      label: "+55 (48) 99144-6296",
+      href: "https://wa.me/message/JFDMR2UAEGKXJ1",
     },
   },
   {
@@ -461,7 +461,7 @@ export default function ContactForm() {
                   {isSubmitting ? "Enviando..." : "Enviar"}
                 </button>
                 <Link
-                  href="https://wa.me/message/3DJHQZ4B6KDYJ1"
+                  href="https://wa.me/message/JFDMR2UAEGKXJ1"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center justify-center rounded-2xl border border-slate-300 px-8 py-4 text-sm font-semibold text-slate-700 transition hover:border-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"

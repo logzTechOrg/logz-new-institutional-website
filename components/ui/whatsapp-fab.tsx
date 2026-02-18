@@ -7,7 +7,7 @@ import whatsappIcon from "@/assets/whatsapp.svg";
 export function WhatsAppFab() {
   return (
     <Link
-      href="https://wa.me/message/3DJHQZ4B6KDYJ1"
+      href="https://wa.me/message/JFDMR2UAEGKXJ1"
       target="_blank"
       rel="noreferrer"
       aria-label="Fale com a Log Z pelo WhatsApp"

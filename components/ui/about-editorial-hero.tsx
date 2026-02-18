@@ -27,7 +27,7 @@ export default function AboutEditorialHero() {
 
           <div>
             <Link
-              href="#sobre-nos"
+              href="https://wa.me/message/JFDMR2UAEGKXJ1"
               className="inline-flex items-center justify-center rounded-xl bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
             >
               Saiba mais sobre a Log Z
