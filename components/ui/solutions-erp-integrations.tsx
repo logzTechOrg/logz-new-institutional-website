@@ -9,19 +9,19 @@ const logos = ["SAP", "Protheus", "Totvs", "Oracle", "Infor", "Sinqia"];
 const formats = [
   {
     title: "Itens e contratos",
-    fields: ["codigo", "descricao", "familia", "contrato", "lead-time"],
+    fields: ["código", "descrição", "família", "contrato", "lead time"],
   },
   {
-    title: "Notas e requisicoes",
-    fields: ["numero NF", "pedido compras", "centro de custo", "valor"],
+    title: "Notas e requisições",
+    fields: ["número NF", "pedido de compras", "centro de custo", "valor"],
   },
   {
     title: "OP / OS",
-    fields: ["ordem", "cliente", "linha", "turno", "responsavel"],
+    fields: ["ordem", "cliente", "linha", "turno", "responsável"],
   },
   {
-    title: "Usuarios",
-    fields: ["matricula", "cpf", "turno", "perfis"],
+    title: "Usuários",
+    fields: ["matrícula", "CPF", "turno", "perfis"],
   },
 ];
 
@@ -33,7 +33,7 @@ export default function SolutionsErpIntegrations() {
       <Container className="space-y-10">
         <div className="space-y-3 text-center">
           <span className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
-            Integracoes ERP
+            Integrações ERP
           </span>
           <h2 className="text-3xl font-bold md:text-4xl">
             Dados circulando entre quem compra, usa e aprova
@@ -58,7 +58,7 @@ export default function SolutionsErpIntegrations() {
 
             <div className="rounded-3xl border border-dashed border-blue-200 bg-blue-50/70 p-6">
               <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
-                Fluxo padrao
+                Fluxo padrão
               </p>
               <div className="mt-5 flex flex-wrap items-center gap-4 text-sm font-semibold text-slate-900">
                 {["API", "CSV", "EDI"].map((step, index) => (

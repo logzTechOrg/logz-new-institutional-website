@@ -9,28 +9,28 @@ type VariantKey = "withLocker" | "withoutLocker";
 
 const variants: Record<VariantKey, { label: string; description: string }> = {
   withLocker: {
-    label: "Com armario",
+    label: "Com armário",
     description: "Hardware + telemetria inclusos",
   },
   withoutLocker: {
-    label: "Sem armario",
-    description: "Para plantas com estrutura propria",
+    label: "Sem armário",
+    description: "Para plantas com estrutura própria",
   },
 };
 
 const plans = [
   {
     name: "Essencial",
-    description: "Gestao basica de estoque, dashboards principais e suporte remoto.",
+    description: "Gestão básica de estoque, dashboards principais e suporte remoto.",
     highlight: false,
     variants: {
       withLocker: [
-        "Armarios compartilhados entre areas",
+        "Armários compartilhados entre áreas",
         "Dashboards FIFO e rupturas",
         "Onboarding remoto",
       ],
       withoutLocker: [
-        "Integracao com almoxarifado existente",
+        "Integração com almoxarifado existente",
         "Dashboards FIFO e rupturas",
         "Onboarding remoto",
       ],
@@ -38,24 +38,24 @@ const plans = [
   },
   {
     name: "Pro",
-    description: "Plano mais vendido com squads dedicados e integracoes ERP completas.",
+    description: "Plano mais vendido com squads dedicados e integrações ERP completas.",
     highlight: true,
     variants: {
       withLocker: [
-        "Armarios sob medida com badge",
-        "Integracao ERP bidirecional",
-        "Squad de implantacao 90 dias",
+        "Armários sob medida com badge",
+        "Integração ERP bidirecional",
+        "Squad de implantação de 90 dias",
       ],
       withoutLocker: [
-        "Integracao ERP bidirecional",
-        "Controle de kits e politicas",
-        "Squad de implantacao 90 dias",
+        "Integração ERP bidirecional",
+        "Controle de kits e políticas",
+        "Squad de implantação de 90 dias",
       ],
     },
   },
   {
     name: "Enterprise",
-    description: "Modelo global para grupos multi-site com governanca central.",
+    description: "Modelo global para grupos multi-site com governança central.",
     highlight: false,
     variants: {
       withLocker: [
@@ -82,9 +82,9 @@ export default function SolutionsPlans() {
           <span className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
             Planos
           </span>
-          <h2 className="text-3xl font-bold md:text-4xl">Escolha como quer comecar</h2>
+          <h2 className="text-3xl font-bold md:text-4xl">Escolha como quer começar</h2>
           <p className="mx-auto max-w-3xl text-base text-slate-600 md:text-lg">
-            Toggle abaixo para ver o que esta incluso com ou sem armario inteligente.
+            Use o seletor abaixo para ver o que está incluso com ou sem armário inteligente.
           </p>
         </div>
 

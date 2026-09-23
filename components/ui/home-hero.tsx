@@ -33,8 +33,8 @@ export default function HomeHero() {
   }, [videoFailed]);
 
   return (
-    <section className="relative -mt-24 overflow-hidden bg-white pb-28">
-      <div className="pointer-events-none absolute inset-0 z-0 bg-black">
+    <section className="relative -mt-24 overflow-hidden bg-white pb-16 md:pb-24">
+      <div className="pointer-events-none absolute inset-0 z-0 bg-slate-900">
         {videoFailed ? (
           <div className="relative h-full w-full">
             <Image
@@ -66,25 +66,25 @@ export default function HomeHero() {
             onAbort={() => setVideoFailed(true)}
           />
         )}
-        <div className="absolute inset-0 bg-white/55" aria-hidden="true" />
+        <div className="absolute inset-0 bg-white/45" aria-hidden="true" />
       </div>
-      <Container className="relative z-10 mb-15 pt-28 md:pt-32">
-        <div className="flex flex-col items-center gap-10 text-center">
-          <div className="w-full max-w-3xl">
-            <h1 className="mt-15 text-5xl font-bold leading-tight text-gray-900 md:text-6xl">
+      <Container className="relative z-10 mb-12 pt-24 md:pt-28 lg:pt-32">
+        <div className="flex flex-col items-center gap-8 md:gap-10 text-center">
+          <div className="w-full max-w-3xl px-4 sm:px-6">
+            <h1 className="mt-8 md:mt-12 text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-gray-900">
               Você no controle das ferramentas de usinagem.
             </h1>
-            <p className="mt-6 text-lg text-gray-600 md:text-md">
+            <p className="mt-4 md:mt-6 text-base sm:text-lg md:text-lg text-gray-600">
               Simplifique a gestão, tenha clareza sobre as compras e consumos e
               reduza custos com a Log Z.
             </p>
 
-            <div className="mt-15 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <div className="mt-8 md:mt-10 flex flex-col items-center justify-center gap-3 sm:gap-4">
               <Link
                 href="https://wa.me/message/JFDMR2UAEGKXJ1"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center justify-center rounded-xl px-6 py-3 text-lg leading-none font-medium bg-[var(--primary)] text-white shadow transition-opacity hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-[var(--ring)]"
+                className="inline-flex items-center justify-center rounded-lg px-6 md:px-8 py-3 md:py-3.5 text-base md:text-lg leading-none font-semibold bg-[var(--primary)] text-white transition-all duration-200 hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[var(--ring)]"
               >
                 Comece agora
               </Link>
@@ -100,11 +100,11 @@ export default function HomeHero() {
 
 function HeroWave() {
   return (
-    <div className="pointer-events-none absolute inset-x-0 bottom-[-1px] z-10">
+    <div className="pointer-events-none absolute inset-x-0 bottom-[-1px] z-10 hidden md:block">
       <svg
         viewBox="0 0 1440 220"
         preserveAspectRatio="none"
-        className="block h-28 w-full text-slate-900"
+        className="block h-20 md:h-24 w-full text-slate-900"
         aria-hidden="true"
       >
         <path
@@ -112,10 +112,10 @@ function HeroWave() {
           fill="currentColor"
         />
       </svg>
-      <div className="absolute left-1/2 top-4 -translate-x-1/2 text-black drop-shadow">
+      <div className="absolute left-1/2 top-3 md:top-4 -translate-x-1/2 text-slate-700 opacity-60 animate-bounce">
         <svg
-          width="22"
-          height="22"
+          width="20"
+          height="20"
           viewBox="0 0 24 24"
           fill="none"
           aria-hidden="true"

@@ -107,8 +107,8 @@ export default function SolutionsModuleBlock() {
   };
 
   return (
-    <section className="relative bg-slate-900 py-16 text-slate-100 md:py-24">
-      <div className="space-y-10 md:space-y-12">
+    <section className="relative bg-slate-900 py-12 md:py-20 lg:py-24 text-slate-100">
+      <div className="space-y-8 md:space-y-10">
 
         <div className="relative">
           <div className="pointer-events-none absolute inset-y-0 left-0 right-0 flex items-center justify-between px-3 sm:px-5 md:px-8 lg:px-12 xl:px-16">
@@ -133,32 +133,32 @@ export default function SolutionsModuleBlock() {
           <Container>
             <div
               key={activeIndex}
-              className="slide-right grid gap-10 lg:min-h-[620px] lg:grid-cols-2 lg:items-center"
+              className="slide-right grid gap-8 md:gap-10 lg:min-h-[580px] lg:grid-cols-2 lg:items-center"
             >
-              <div className="space-y-6">
-                <div className="space-y-3">
-                  <div className="space-y-1.5">
+              <div className="space-y-5 md:space-y-6 order-2 lg:order-1">
+                <div className="space-y-2 md:space-y-3">
+                  <div className="space-y-1">
                     <span className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-300">
                       Como funciona a solução da Log Z
                     </span>
                   </div>
-                  <h2 className="text-3xl font-bold text-white md:text-4xl">{activeSlide.title}</h2>
-                  <p className="text-base text-slate-300 md:text-lg">{activeSlide.subtitle}</p>
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white leading-tight">{activeSlide.title}</h2>
+                  <p className="text-sm sm:text-base md:text-lg text-slate-300 leading-relaxed">{activeSlide.subtitle}</p>
                 </div>
 
-                <div className="grid gap-6 sm:grid-cols-2">
+                <div className="grid gap-4 sm:grid-cols-2 pt-2">
                   {activeSlide.items.map((item) => (
                     <div
                       key={item.title}
-                      className="rounded-3xl border border-slate-700 bg-slate-800 p-4 shadow-sm"
+                      className="rounded-2xl border border-slate-700/60 bg-slate-800/50 p-4 md:p-5 transition-all duration-300 hover:bg-slate-800 hover:border-slate-600"
                     >
                       <div className="flex items-start gap-3">
-                        <span className="mt-0.5 rounded-2xl bg-blue-500/10 p-2 text-blue-200">
-                          <BadgeCheck className="h-5 w-5" />
+                        <span className="mt-0.5 rounded-lg bg-blue-500/15 p-2 text-blue-300 flex-shrink-0">
+                          <BadgeCheck className="h-4 w-4 md:h-5 md:w-5" />
                         </span>
-                        <div className="space-y-1">
-                          <h3 className="text-lg font-semibold text-slate-50">{item.title}</h3>
-                          <p className="text-sm text-slate-300">{item.description}</p>
+                        <div className="space-y-1 min-w-0">
+                          <h3 className="text-sm md:text-base font-semibold text-slate-50">{item.title}</h3>
+                          <p className="text-xs md:text-sm text-slate-400 leading-relaxed">{item.description}</p>
                         </div>
                       </div>
                     </div>
@@ -166,15 +166,15 @@ export default function SolutionsModuleBlock() {
                 </div>
               </div>
 
-              <div className="relative mx-auto w-full max-w-[610px] aspect-[16/9] overflow-hidden rounded-[32px] border border-slate-800 bg-slate-800 shadow-[0_30px_120px_-60px_rgba(15,23,42,0.45)]">
+              <div className="relative mx-auto w-full max-w-[610px] aspect-video overflow-hidden rounded-2xl md:rounded-3xl border border-slate-700/60 bg-slate-800 shadow-lg order-1 lg:order-2">
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="relative aspect-[16/9] w-full max-h-full overflow-hidden rounded-[28px] bg-slate-800">
+                  <div className="relative w-full h-full overflow-hidden rounded-2xl md:rounded-3xl bg-slate-800">
                     <Image
                       src={activeSlide.image}
                       alt={activeSlide.imageAlt}
                       fill
                       sizes="(min-width: 1024px) 610px, (min-width: 768px) 80vw, 90vw"
-                      quality={100}
+                      quality={90}
                       priority
                       placeholder="blur"
                       className="object-cover"
@@ -187,14 +187,14 @@ export default function SolutionsModuleBlock() {
         </div>
 
         <Container>
-          <div className="flex justify-center gap-2">
+          <div className="flex justify-center gap-2 pt-2">
             {slides.map((slide, index) => (
               <button
                 key={slide.title}
                 type="button"
                 onClick={() => setActiveIndex(index)}
-                className={`h-2.5 w-2.5 rounded-full transition ${
-                  index === activeIndex ? "bg-blue-400" : "bg-slate-600"
+                className={`h-2 w-2 rounded-full transition-all duration-300 ${
+                  index === activeIndex ? "bg-blue-400 w-8" : "bg-slate-600 hover:bg-slate-500"
                 }`}
                 aria-label={`Ir para ${slide.title}`}
               />

@@ -6,50 +6,50 @@ import { Container } from "@/components/ui/container";
 const steps = [
   {
     year: "2022",
-    title: "Onde tudo comecou",
+    title: "Onde tudo começou",
     summary:
-      "A Log Z nasceu dentro das usinagens. O insight veio da vivencia de Vinicius Ronchi, apos uma decada enfrentando falta de visibilidade e controle sobre ferramentas.",
+      "A Log Z nasceu dentro das usinagens. O insight veio da vivência de Vinícius Ronchi, após uma década enfrentando falta de visibilidade e controle sobre ferramentas.",
     bullets: [
-      "Validacao direto no chao de fabrica.",
-      "Planilhas em Excel para organizar itens, movimentacoes e consumo.",
+      "Validação direto no chão de fábrica.",
+      "Planilhas em Excel para organizar itens, movimentações e consumo.",
     ],
   },
   {
     year: "2023",
-    title: "Primeira versao da plataforma",
-    summary: "Lacamos o primeiro formato da plataforma Log Z em um cliente real.",
+    title: "Primeira versão da plataforma",
+    summary: "Lançamos o primeiro formato da plataforma Log Z em um cliente real.",
     bullets: [
       "Processos foram digitalizados.",
-      "Reducao de custos comecou a aparecer.",
-      "Validacao direta na operacao, provando que a usinagem precisava de um sistema simples e visual.",
+      "Redução de custos começou a aparecer.",
+      "Validação direta na operação, provando que a usinagem precisava de um sistema simples e visual.",
     ],
   },
   {
     year: "2024",
-    title: "Integracoes, app mobile e novos modelos de producao",
-    summary: "Entramos na fase de integracoes e ganho de escala.",
+    title: "Integrações, app mobile e novos modelos de produção",
+    summary: "Entramos na fase de integrações e ganho de escala.",
     bullets: [
-      "Conectamos ERPs para sincronizar requisicoes, cadastros e estoque.",
-      "Lancamos o app mobile para requisicoes e consultas rapidas na fabrica.",
-      "Aprimoramos fluxo de estoque, movimentacoes e rastreabilidade para operacoes mais complexas.",
-      "Expandimos de producao seriada para producao sob demanda.",
+      "Conectamos ERPs para sincronizar requisições, cadastros e estoque.",
+      "Lançamos o app mobile para requisições e consultas rápidas na fábrica.",
+      "Aprimoramos fluxo de estoque, movimentações e rastreabilidade para operações mais complexas.",
+      "Expandimos de produção seriada para produção sob demanda.",
     ],
   },
   {
     year: "2025",
     title: "A virada: Plataforma 2.0 e hardware inteligente",
-    summary: "Elevamos o nivel de inteligencia e controle.",
+    summary: "Elevamos o nível de inteligência e controle.",
     bullets: [
-      "Plataforma 2.0 com novo dashboard, indicadores especificos, modulo de testes e visualizacoes avancadas de estoque.",
-      "Armario inteligente com camera embarcada e integracao nativa ao software.",
-      "Expansao comercial e tecnica em Santa Catarina.",
+      "Plataforma 2.0 com novo dashboard, indicadores específicos, módulo de testes e visualizações avançadas de estoque.",
+      "Armário inteligente com câmera embarcada e integração nativa ao software.",
+      "Expansão comercial e técnica em Santa Catarina.",
     ],
   },
   {
     year: "Hoje",
-    title: "Evolucao continua",
+    title: "Evolução contínua",
     summary:
-      "Seguimos construindo funcionalidades, integracoes e indicadores para levar visibilidade, controle e eficiencia para operacoes de usinagem no Brasil inteiro.",
+      "Seguimos construindo funcionalidades, integrações e indicadores para levar visibilidade, controle e eficiência para operações de usinagem no Brasil inteiro.",
     bullets: [],
   },
 ];

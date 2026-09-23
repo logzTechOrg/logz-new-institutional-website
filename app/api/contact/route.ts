@@ -10,8 +10,8 @@ const personaFieldKey: Record<ContactFormPayload["persona"], keyof ContactFormPa
 };
 
 const personaFieldLabel: Record<ContactFormPayload["persona"], string> = {
-  compras: "Itens comprados por mes",
-  usinagem: "Maquinas",
+  compras: "Itens comprados por mês",
+  usinagem: "Máquinas",
   direcao: "Receita",
 };
 
@@ -45,14 +45,14 @@ function parsePayload(body: unknown): ContactFormPayload {
 }
 
 function validatePayload(payload: ContactFormPayload): string | null {
-  if (!payload.name) return "Nome obrigatorio";
-  if (!payload.email) return "Email obrigatorio";
-  if (!payload.phone) return "Telefone obrigatorio";
-  if (!payload.company) return "Empresa obrigatoria";
+  if (!payload.name) return "Nome obrigatório";
+  if (!payload.email) return "E-mail obrigatório";
+  if (!payload.phone) return "Telefone obrigatório";
+  if (!payload.company) return "Empresa obrigatória";
 
   const key = personaFieldKey[payload.persona];
   if (!payload[key]) {
-    return `${personaFieldLabel[payload.persona]} obrigatorio`;
+    return `${personaFieldLabel[payload.persona]} obrigatório`;
   }
 
   return null;
@@ -74,7 +74,7 @@ export async function POST(request: Request) {
   } catch (err) {
     console.error("Failed to handle contact form submission", err);
     return NextResponse.json(
-      { error: "Nao foi possivel enviar a mensagem. Tente novamente." },
+      { error: "Não foi possível enviar a mensagem. Tente novamente." },
       { status: 500 }
     );
   }

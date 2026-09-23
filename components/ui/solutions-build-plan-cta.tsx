@@ -4,7 +4,7 @@ import { FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Container } from "@/components/ui/container";
 
-const personaOptions = ["Compras", "Usinagem", "Direcao"];
+const personaOptions = ["Compras", "Usinagem", "Direção"];
 const planOptions = ["Essencial", "Pro", "Enterprise"];
 
 export default function SolutionsBuildPlanCta() {

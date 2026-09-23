@@ -42,7 +42,7 @@ export default function AboutEditorialHero() {
           <div className="relative">
             <Image
               src={factoryImage}
-              alt="Chao de fabrica monitorado pelo Log Z"
+              alt="Chão de fábrica monitorado pelo Log Z"
               placeholder="blur"
               className="h-full w-full object-cover"
               sizes="(max-width: 1024px) 100vw, 540px"

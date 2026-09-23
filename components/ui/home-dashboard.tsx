@@ -22,25 +22,25 @@ const features: Feature[] = [
   {
     title: "Indicadores em tempo real",
     description:
-      "Acompanhe vibracao, temperatura, tool life e consumo minuto a minuto em um unico painel.",
+      "Acompanhe vibração, temperatura, tool life e consumo minuto a minuto em um único painel.",
     icon: Activity,
   },
   {
     title: "Alertas inteligentes",
     description:
-      "Receba avisos automaticos quando um ativo sair do envelope ideal para agir antes da parada.",
+      "Receba avisos automáticos quando um ativo sair do envelope ideal para agir antes da parada.",
     icon: TrendingUp,
   },
   {
-    title: "Historico e comparacao",
+    title: "Histórico e comparação",
     description:
-      "Veja tendencias por turno, operador ou lote e compare periodos para entender evolucao de performance.",
+      "Veja tendências por turno, operador ou lote e compare períodos para entender evolução de performance.",
     icon: History,
   },
   {
     title: "Saude do ativo",
     description:
-      "Entenda a carga de cada equipamento com score de saude consolidado e priorize manutencao com clareza.",
+      "Entenda a carga de cada equipamento com score de saúde consolidado e priorize manutenção com clareza.",
     icon: Gauge,
   },
 ];
@@ -59,9 +59,9 @@ export default function HomeDashboard() {
                 Tudo o que importa em um dashboard claro
               </h2>
               <p className="text-base text-slate-300 md:text-lg">
-                Monitore cada indicador critico de usinagem com insights que
-                orientam decisoes rapidas, reduzindo paradas e otimizando a
-                producao de ponta a ponta.
+                Monitore cada indicador crítico de usinagem com insights que
+                orientam decisões rápidas, reduzindo paradas e otimizando a
+                produção de ponta a ponta.
               </p>
             </div>
 

@@ -8,17 +8,17 @@ const faqs = [
   {
     question: "A Log Z serve para o tipo de usinagem da minha empresa?",
     answer:
-      "Sim. A Log Z foi criada para atender diferentes realidades de usinagem, desde produção seriada ate produção sob demanda, incluindo fabricantes de máquinas, componentes mecânicos, prestadoras de serviço e ferramentarias.",
+      "Sim. A Log Z foi criada para atender diferentes realidades de usinagem, desde produção seriada até produção sob demanda, incluindo fabricantes de máquinas, componentes mecânicos, prestadoras de serviço e ferramentarias.",
   },
   {
     question: "Preciso mudar toda a minha operação para usar a Log Z?",
     answer:
-      "Não. A Log Z se integra a rotina existente da empresa e pode ser implantada de forma gradual. Você começa organizando o controle das ferramentas e, aos poucos, evolui para indicadores, automações e integrações, sem interromper a produção.",
+      "Não. A Log Z se integra à rotina existente da empresa e pode ser implantada de forma gradual. Você começa organizando o controle das ferramentas e, aos poucos, evolui para indicadores, automações e integrações, sem interromper a produção.",
   },
   {
     question: "Quanto tempo leva para começar a usar a Log Z na prática?",
     answer:
-      "A implantacao é rápida e orientada por especialistas. Em poucos dias, sua equipe ja consegue registrar movimentações, acompanhar estoque e visualizar dados reais da operação. O objetivo e gerar valor desde o início, sem projetos longos ou complexos.",
+      "A implantação é rápida e orientada por especialistas. Em poucos dias, sua equipe já consegue registrar movimentações, acompanhar estoque e visualizar dados reais da operação. O objetivo é gerar valor desde o início, sem projetos longos ou complexos.",
   },
   {
     question: "A Log Z é difícil de usar no dia a dia?",
@@ -26,7 +26,7 @@ const faqs = [
       "Não. A plataforma foi pensada para o chão de fábrica, com interface simples, visual e intuitiva. Operadores, líderes e gestores conseguem usar a Log Z rapidamente, sem depender de longos treinamentos.",
   },
   {
-    question: "A Log Z oferece suporte apos a implantação?",
+    question: "A Log Z oferece suporte após a implantação?",
     answer:
       "Sim. Nossa equipe acompanha a implantação e segue próxima após o início do uso, ajudando a extrair o máximo valor da plataforma e garantindo que a operação evolua junto com o sistema.",
   },

@@ -8,27 +8,27 @@ const personas = {
     label: "Compras",
     headline: "Domine consumo vs. pedido com alertas de ruptura e FIFO real.",
     bullets: [
-      "Comparativos entre previsao, pedido e consumo real.",
-      "Alertas de validade e saldo minimo direto no e-mail.",
+      "Comparativos entre previsão, pedido e consumo real.",
+      "Alertas de validade e saldo mínimo direto no e-mail.",
       "KPIs de economia ligados a contratos de fornecedores.",
     ],
   },
   usinagem: {
     label: "Usinagem",
-    headline: "Ferramentas certas, no kit certo, sem espera na maquina.",
+    headline: "Ferramentas certas, no kit certo, sem espera na máquina.",
     bullets: [
       "Kits e presets prontos por centro de trabalho.",
       "Rastreio do operador e da OS/OP em cada retirada.",
-      "Reposicao automatica por envelope de consumo.",
+      "Reposição automática por envelope de consumo.",
     ],
   },
   direcao: {
-    label: "Direcao",
+    label: "Direção",
     headline: "Visibilidade financeira sobre ativos, contratos e produtividade.",
     bullets: [
-      "Dashboards conectando custos por linha e familia de produto.",
-      "Relatorios prontos para auditoria e prestacao com fornecedores.",
-      "Integracao com ERP para fechar o ciclo de centros de custo.",
+      "Dashboards conectando custos por linha e família de produto.",
+      "Relatórios prontos para auditoria e prestação com fornecedores.",
+      "Integração com ERP para fechar o ciclo de centros de custo.",
     ],
   },
 };
@@ -45,14 +45,14 @@ export default function SolutionsIntro() {
         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <div className="space-y-4">
             <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
-              Solucoes Log Z
+              Soluções Log Z
             </p>
             <h1 className="text-4xl font-bold leading-tight md:text-5xl">
-              Operacao enxuta para ferramentas e insumos criticos.
+              Operação enxuta para ferramentas e insumos críticos.
             </h1>
             <p className="text-lg text-slate-600 md:text-xl">
               Escolha a persona e veja o que muda quando dados reais conectam compras,
-              usinagem e direcao.
+              usinagem e direção.
             </p>
           </div>
 

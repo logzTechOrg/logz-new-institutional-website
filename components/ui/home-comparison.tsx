@@ -9,7 +9,7 @@ const competitors = [
   {
     key: "logz",
     title: "Log Z",
-    subtitle: "Monitoramento continuo",
+    subtitle: "Monitoramento contínuo",
   },
   {
     key: "sensors",
@@ -29,13 +29,13 @@ type ComparisonRow = { feature: string } & Record<CompetitorKey, Availability>;
 
 const comparisonRows: ComparisonRow[] = [
   {
-    feature: "Algoritmos de diagnostico patenteados",
+    feature: "Algoritmos de diagnóstico patenteados",
     logz: "full",
     sensors: "none",
     offline: "none",
   },
   {
-    feature: "Espectro completo de vibracao",
+    feature: "Espectro completo de vibração",
     logz: "full",
     sensors: "full",
     offline: "none",
@@ -47,7 +47,7 @@ const comparisonRows: ComparisonRow[] = [
     offline: "none",
   },
   {
-    feature: "Historico e tendencia dos ativos",
+    feature: "Histórico e tendência dos ativos",
     logz: "full",
     sensors: "partial",
     offline: "none",
@@ -59,7 +59,7 @@ const comparisonRows: ComparisonRow[] = [
     offline: "none",
   },
   {
-    feature: "Monitoramento continuo em tempo real",
+    feature: "Monitoramento contínuo em tempo real",
     logz: "full",
     sensors: "partial",
     offline: "none",
@@ -77,7 +77,7 @@ const comparisonRows: ComparisonRow[] = [
     offline: "none",
   },
   {
-    feature: "Integracao manutencao eletrica e mecanica",
+    feature: "Integração, manutenção elétrica e mecânica",
     logz: "full",
     sensors: "partial",
     offline: "none",
@@ -128,7 +128,7 @@ export default function HomeComparison() {
           </h2>
           <p className="mx-auto max-w-3xl text-base text-white/80 md:text-lg">
             Um painel direto para enxergar os recursos essenciais de monitoramento industrial
-            e o que realmente chega na sua fabrica.
+            e o que realmente chega na sua fábrica.
           </p>
         </div>
 

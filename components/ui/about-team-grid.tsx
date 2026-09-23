@@ -8,7 +8,7 @@ import { Container } from "@/components/ui/container";
 const teamMembers = [
   {
     name: "Ana Costa",
-    role: "Diretora de Operacoes",
+    role: "Diretora de Operações",
     image: "/assets/team-ana.jpg",
     linkedin: "https://www.linkedin.com",
   },
@@ -19,7 +19,7 @@ const teamMembers = [
     linkedin: "https://www.linkedin.com",
   },
   {
-    name: "Joao Mendes",
+    name: "João Mendes",
     role: "Especialista em Dados",
     image: "/assets/team-joao.jpg",
     linkedin: "https://www.linkedin.com",
@@ -40,9 +40,9 @@ export default function AboutTeamGrid() {
           <span className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
             Time
           </span>
-          <h2 className="text-3xl font-bold md:text-4xl">Especialistas que viveram o chao de fabrica</h2>
+          <h2 className="text-3xl font-bold md:text-4xl">Especialistas que viveram o chão de fábrica</h2>
           <p className="mx-auto max-w-3xl text-base text-slate-600 md:text-lg">
-            Gente que ja ocupou manutencao, logistica e engenharia em industrias reais e agora acelera clientes Log Z.
+            Gente que já ocupou manutenção, logística e engenharia em indústrias reais e agora acelera clientes Log Z.
           </p>
         </div>
 

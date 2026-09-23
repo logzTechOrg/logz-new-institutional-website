@@ -18,9 +18,9 @@ type Benefit = {
 
 const benefits: Benefit[] = [
   {
-    title: "Alertas que importam, sem ruido",
+    title: "Alertas que importam, sem ruído",
     description:
-      "Entenda a causa da falha e a acao recomendada com alertas claros e contextualizados para sua operacao.",
+      "Entenda a causa da falha e a ação recomendada com alertas claros e contextualizados para sua operação.",
     icon: BellRing,
     signal: {
       label: "Falha prevista",
@@ -29,20 +29,20 @@ const benefits: Benefit[] = [
     },
   },
   {
-    title: "Respostas rapidas, menos downtime",
+    title: "Respostas rápidas, menos downtime",
     description:
-      "Insights em tempo real ajudam o time a priorizar manutencao antes da parada inesperada.",
+      "Insights em tempo real ajudam o time a priorizar manutenção antes da parada inesperada.",
     icon: Zap,
     signal: {
       label: "Tendencia",
-      value: "Vibracao acima do limite",
+      value: "Vibração acima do limite",
       status: "Ajuste sugerido",
     },
   },
   {
-    title: "Instalacao simples e sem fios",
+    title: "Instalação simples e sem fios",
     description:
-      "Sensores conectam em poucos minutos e comecam a enviar dados sem cabos ou estrutura complexa.",
+      "Sensores conectam em poucos minutos e começam a enviar dados sem cabos ou estrutura complexa.",
     icon: Wrench,
     signal: {
       label: "Status do ativo",
@@ -58,7 +58,7 @@ const benefits: Benefit[] = [
     signal: {
       label: "Equipe Log Z",
       value: "Engenheiro disponivel",
-      status: "Atendimento prioritario",
+      status: "Atendimento prioritário",
     },
   },
 ];

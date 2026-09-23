@@ -7,27 +7,27 @@ import { Container } from "@/components/ui/container";
 const faqItems = [
   {
     question: "Qual o prazo de retorno?",
-    answer: "Respondemos em ate 1 dia util com um plano preliminar e sugestao de agenda.",
+    answer: "Respondemos em até 1 dia útil com um plano preliminar e sugestão de agenda.",
   },
   {
-    question: "Como funciona a demonstracao?",
+    question: "Como funciona a demonstração?",
     answer:
-      "Conectamos dados ficticios do seu segmento e mostramos os fluxos de gestao, armarios e dashboards.",
+      "Conectamos dados fictícios do seu segmento e mostramos os fluxos de gestão, armários e dashboards.",
   },
   {
-    question: "Existem pre-requisitos tecnicos?",
+    question: "Existem pré-requisitos técnicos?",
     answer:
-      "Nao. Trabalhamos com conectores proprios ou simples arquivos CSV. Integramos com SAP, Protheus, Oracle e APIs custom.",
+      "Não. Trabalhamos com conectores próprios ou simples arquivos CSV. Integramos com SAP, Protheus, Oracle e APIs customizadas.",
   },
   {
     question: "O que precisa para integrar ao ERP?",
     answer:
-      "Um usuario tecnico e, opcionalmente, acesso a ambientes de homologacao. Nosso time apoia toda a configuracao.",
+      "Um usuário técnico e, opcionalmente, acesso a ambientes de homologação. Nosso time apoia toda a configuração.",
   },
   {
-    question: "Voces atendem plantas fora do Brasil?",
+    question: "Vocês atendem plantas fora do Brasil?",
     answer:
-      "Sim, atendemos clientes no Brasil e America Latina com squads bilingues e suporte remoto.",
+      "Sim, atendemos clientes no Brasil e na América Latina com squads bilíngues e suporte remoto.",
   },
 ];
 
@@ -43,7 +43,7 @@ export default function ContactShortFaq() {
       <Container className="space-y-8">
         <div className="text-center space-y-3">
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
-            FAQ rapido
+            FAQ rápido
           </p>
           <h2 className="text-3xl font-bold text-white md:text-4xl">Perguntas frequentes sobre o onboarding</h2>
         </div>

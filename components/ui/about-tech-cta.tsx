@@ -15,11 +15,11 @@ export default function AboutTechCta() {
             </span>
             <div className="space-y-3">
               <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-200">
-                suporte tecnico
+                suporte técnico
               </p>
-              <h2 className="text-3xl font-bold">Fale com nosso time tecnico</h2>
+              <h2 className="text-3xl font-bold">Fale com nosso time técnico</h2>
               <p className="text-base text-slate-200 md:text-lg">
-                Engenheiros e especialistas respondem sua necessidade, conectam dados e desenham o plano de implantacao.
+                Engenheiros e especialistas respondem sua necessidade, conectam dados e desenham o plano de implantação.
               </p>
             </div>
           </div>

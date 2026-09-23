@@ -4,28 +4,28 @@ import { Container } from "@/components/ui/container";
 
 const steps = [
   {
-    title: "Diagnostico",
+    title: "Diagnóstico",
     description: "Mapeamos processos, centros de custo e contratos vigentes.",
   },
   {
     title: "Contagem inicial",
-    description: "Inventario guiado com RFID/QR e saneamento de master data.",
+    description: "Inventário guiado com RFID/QR e saneamento de master data.",
   },
   {
-    title: "Parametrizacao",
-    description: "Configuramos kits, politicas, perfis e integracoes ERP.",
+    title: "Parametrização",
+    description: "Configuramos kits, políticas, perfis e integrações ERP.",
   },
   {
     title: "Piloto (90 dias)",
-    description: "Squad dedicado acompanha turno critico e gera ajustes rapidos.",
+    description: "Squad dedicado acompanha turno crítico e gera ajustes rápidos.",
   },
   {
     title: "Go-live",
-    description: "Treinamento onsite e remoto, comunicacao com equipes.",
+    description: "Treinamento onsite e remoto, comunicação com equipes.",
   },
   {
     title: "Acompanhamento",
-    description: "Reunioes de melhoria continua e revisao de KPIs mensais.",
+    description: "Reuniões de melhoria contínua e revisão de KPIs mensais.",
   },
 ];
 
@@ -35,9 +35,9 @@ export default function SolutionsImplementation() {
       <Container className="space-y-10">
         <div className="space-y-3 text-center">
           <span className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
-            Implantacao & treinamento
+            Implantação & treinamento
           </span>
-          <h2 className="text-3xl font-bold md:text-4xl">Plano claro do diagnostico ao acompanhamento</h2>
+          <h2 className="text-3xl font-bold md:text-4xl">Plano claro do diagnóstico ao acompanhamento</h2>
           <p className="mx-auto max-w-3xl text-base text-slate-600 md:text-lg">
             Squad Log Z acompanha todo o ciclo com indicadores de progresso semanais.
           </p>

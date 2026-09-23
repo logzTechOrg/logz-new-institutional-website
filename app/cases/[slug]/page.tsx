@@ -103,12 +103,12 @@ export default async function CasePage({ params }: CasePageProps) {
         <Container className="grid gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:items-start">
           <div className="space-y-4">
             <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
-              Cenario inicial
+              Cenário inicial
             </p>
-            <h2 className="text-3xl font-bold md:text-4xl">Onde comecamos</h2>
+            <h2 className="text-3xl font-bold md:text-4xl">Onde começamos</h2>
             <p className="text-base text-slate-600 md:text-lg">
               Antes do Log Z, o time convivia com rupturas, compras emergenciais e falta de
-              visibilidade. Mapear o cenario permitiu definir quais indicadores seriam usados como
+              visibilidade. Mapear o cenário permitiu definir quais indicadores seriam usados como
               linha de base.
             </p>
           </div>
@@ -132,7 +132,7 @@ export default async function CasePage({ params }: CasePageProps) {
         <Container className="space-y-8">
           <div className="space-y-3 text-center">
             <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
-              Solucoes aplicadas
+              Soluções aplicadas
             </p>
             <h2 className="text-3xl font-bold md:text-4xl">O que usamos neste case</h2>
           </div>
@@ -183,7 +183,7 @@ export default async function CasePage({ params }: CasePageProps) {
             <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
               Linha do tempo
             </p>
-            <h2 className="text-3xl font-bold md:text-4xl">Implantacao em marcos curtos</h2>
+            <h2 className="text-3xl font-bold md:text-4xl">Implantação em marcos curtos</h2>
           </div>
           <div className="relative rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
             <div className="absolute left-8 top-12 bottom-12 hidden w-px bg-slate-200 lg:block" />
@@ -223,9 +223,9 @@ export default async function CasePage({ params }: CasePageProps) {
       <section className="bg-slate-900 py-16 text-white md:py-24">
         <Container className="space-y-6 text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-200">
-            proximo passo
+            próximo passo
           </p>
-          <h2 className="text-3xl font-bold md:text-4xl">Quero um diagnostico semelhante</h2>
+          <h2 className="text-3xl font-bold md:text-4xl">Quero um diagnóstico semelhante</h2>
           <p className="mx-auto max-w-3xl text-base text-slate-200 md:text-lg">
             Entenda em quanto tempo podemos replicar estes resultados na sua planta. Receba um
             roadmap com indicadores e prazos.
@@ -234,7 +234,7 @@ export default async function CasePage({ params }: CasePageProps) {
             href="/contato?tipo=diagnostico"
             className="inline-flex items-center justify-center rounded-2xl bg-blue-500 px-8 py-4 text-base font-semibold text-white transition hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-200"
           >
-            Agendar diagnostico
+            Agendar diagnóstico
           </Link>
         </Container>
       </section>

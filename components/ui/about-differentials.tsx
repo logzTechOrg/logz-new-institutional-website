@@ -6,11 +6,11 @@ import { Container } from "@/components/ui/container";
 import auditoriaImage from "@/public/assets/auditoria.png";
 
 const bullets = [
-  "Independencia de marcas e fornecedores",
+  "Independência de marcas e fornecedores",
   "KPIs prontos com benchmarking de usinagem",
-  "Auditoria e seguranca com trilhas completas",
-  "Metodologia de implantacao com squads",
-  "Integracao nativa com ERPs do cliente",
+  "Auditoria e segurança com trilhas completas",
+  "Metodologia de implantação com squads",
+  "Integração nativa com ERPs do cliente",
 ];
 
 export default function AboutDifferentials() {
@@ -22,11 +22,11 @@ export default function AboutDifferentials() {
             Diferenciais
           </span>
           <h2 className="text-3xl font-bold md:text-4xl">
-            Confianca para conectar dados tecnicos ao financeiro
+            Confiança para conectar dados técnicos ao financeiro
           </h2>
           <p className="text-base text-slate-600 md:text-lg">
-            Cada implantacao recebe playbook proprio, indicadores ja homologados e rastreabilidade completa
-            para auditar qualquer decisao.
+            Cada implantação recebe playbook próprio, indicadores já homologados e rastreabilidade completa
+            para auditar qualquer decisão.
           </p>
 
           <ul className="space-y-4">
@@ -46,7 +46,7 @@ export default function AboutDifferentials() {
           <div className="relative overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-[0_40px_120px_-60px_rgba(15,23,42,0.5)]">
             <Image
               src={auditoriaImage}
-              alt="Tela tecnica de auditoria Log Z"
+              alt="Tela técnica de auditoria Log Z"
               placeholder="blur"
               className="w-full"
             />

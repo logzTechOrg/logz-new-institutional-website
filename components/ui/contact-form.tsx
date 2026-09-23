@@ -30,17 +30,17 @@ const states = [
 ];
 
 const cities = [
-  "Sao Paulo",
+  "São Paulo",
   "Campinas",
   "Curitiba",
   "Joinville",
   "Belo Horizonte",
-  "Uberlandia",
+  "Uberlândia",
   "Recife",
   "Caxias do Sul",
   "Manaus",
-  "Criciuma",
-  "Goiania",
+  "Criciúma",
+  "Goiânia",
   "Fortaleza",
 ];
 
@@ -171,14 +171,14 @@ export default function ContactForm() {
     const newErrors: Errors = {};
     if (!formData.name) newErrors.name = "Informe seu nome.";
     if (!formData.email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email))
-      newErrors.email = "E-mail corporativo invalido.";
+      newErrors.email = "E-mail corporativo inválido.";
     if (!formData.phone || formData.phone.replace(/\D/g, "").length < 10)
       newErrors.phone = "Telefone incompleto.";
     if (!formData.company) newErrors.company = "Informe o nome da empresa.";
 
     const personaField = personaSpecificFields[formData.persona].key as keyof FormData;
     if (!formData[personaField]) {
-      newErrors[personaField] = `Campo obrigatorio: ${personaFieldLabels[formData.persona]}.`;
+      newErrors[personaField] = `Campo obrigatório: ${personaFieldLabels[formData.persona]}.`;
     }
 
     return newErrors;
@@ -259,7 +259,7 @@ export default function ContactForm() {
           const message =
             result && typeof result.error === "string"
               ? result.error
-              : "Nao foi possivel enviar. Tente novamente.";
+              : "Não foi possível enviar. Tente novamente.";
           throw new Error(message);
         }
 
@@ -268,7 +268,7 @@ export default function ContactForm() {
         setTouched({});
       } catch (error) {
         const message =
-          error instanceof Error ? error.message : "Nao foi possivel enviar. Tente novamente.";
+          error instanceof Error ? error.message : "Não foi possível enviar. Tente novamente.";
         setSubmitError(message);
       } finally {
         setIsSubmitting(false);
@@ -281,19 +281,19 @@ export default function ContactForm() {
   const personaFieldLabel = personaFieldLabels[formData.persona];
 
   return (
-    <section className="bg-slate-50 pt-6 pb-16 md:pt-10 md:pb-24">
-      <Container className="space-y-10 md:space-y-12">
+    <section className="bg-slate-50 pt-6 md:pt-12 pb-12 md:pb-20 lg:pb-24">
+      <Container className="space-y-8 md:space-y-10 lg:space-y-12">
         <ContactHero />
         {submitted ? (
           <SuccessCard />
         ) : (
-          <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
+          <div className="grid gap-8 md:gap-10 lg:grid-cols-[minmax(0,1fr)_280px] xl:grid-cols-[minmax(0,1fr)_320px]">
             <form
               onSubmit={handleSubmit}
-              className="space-y-6 rounded-[32px] border border-slate-200 bg-white p-8 shadow-sm"
+              className="space-y-5 md:space-y-6 rounded-2xl md:rounded-3xl border border-slate-200 bg-white p-6 md:p-8 shadow-sm"
             >
-              <div className="grid gap-4 md:grid-cols-2">
-                <label className="space-y-2 text-sm font-semibold text-slate-700">
+              <div className="grid gap-3 md:gap-4 md:grid-cols-2">
+                <label className="space-y-1.5 md:space-y-2 text-xs md:text-sm font-semibold text-slate-700">
                   Nome completo *
                   <input
                     type="text"
@@ -303,7 +303,7 @@ export default function ContactForm() {
                     onBlur={() => handleBlur("name")}
                     aria-invalid={!!showError("name")}
                     aria-describedby={showError("name") ? "error-name" : undefined}
-                    className="w-full rounded-2xl border border-slate-200 px-4 py-3"
+                    className="w-full rounded-lg md:rounded-xl border border-slate-200 px-3 md:px-4 py-2.5 md:py-3 text-sm transition-colors focus:border-blue-400 focus:outline-none"
                   />
                   {showError("name") && (
                     <span id="error-name" className="text-xs text-red-600">
@@ -312,7 +312,7 @@ export default function ContactForm() {
                   )}
                 </label>
 
-                <label className="space-y-2 text-sm font-semibold text-slate-700">
+                <label className="space-y-1.5 md:space-y-2 text-xs md:text-sm font-semibold text-slate-700">
                   E-mail corporativo *
                   <input
                     type="email"
@@ -322,7 +322,7 @@ export default function ContactForm() {
                     onBlur={() => handleBlur("email")}
                     aria-invalid={!!showError("email")}
                     aria-describedby={showError("email") ? "error-email" : undefined}
-                    className="w-full rounded-2xl border border-slate-200 px-4 py-3"
+                    className="w-full rounded-lg md:rounded-xl border border-slate-200 px-3 md:px-4 py-2.5 md:py-3 text-sm transition-colors focus:border-blue-400 focus:outline-none"
                   />
                   {showError("email") && (
                     <span id="error-email" className="text-xs text-red-600">
@@ -332,8 +332,8 @@ export default function ContactForm() {
                 </label>
               </div>
  
-              <div className="grid gap-4 md:grid-cols-2">
-                <label className="space-y-2 text-sm font-semibold text-slate-700">
+              <div className="grid gap-3 md:gap-4 md:grid-cols-2">
+                <label className="space-y-1.5 md:space-y-2 text-xs md:text-sm font-semibold text-slate-700">
                   Telefone *
                   <input
                     type="tel"
@@ -343,7 +343,7 @@ export default function ContactForm() {
                     onBlur={() => handleBlur("phone")}
                     aria-invalid={!!showError("phone")}
                     aria-describedby={showError("phone") ? "error-phone" : undefined}
-                    className="w-full rounded-2xl border border-slate-200 px-4 py-3"
+                    className="w-full rounded-lg md:rounded-xl border border-slate-200 px-3 md:px-4 py-2.5 md:py-3 text-sm transition-colors focus:border-blue-400 focus:outline-none"
                   />
                   {showError("phone") && (
                     <span id="error-phone" className="text-xs text-red-600">
@@ -352,7 +352,7 @@ export default function ContactForm() {
                   )}
                 </label>
 
-                <label className="space-y-2 text-sm font-semibold text-slate-700">
+                <label className="space-y-1.5 md:space-y-2 text-xs md:text-sm font-semibold text-slate-700">
                   Empresa *
                   <input
                     type="text"
@@ -362,7 +362,7 @@ export default function ContactForm() {
                     onBlur={() => handleBlur("company")}
                     aria-invalid={!!showError("company")}
                     aria-describedby={showError("company") ? "error-company" : undefined}
-                    className="w-full rounded-2xl border border-slate-200 px-4 py-3"
+                    className="w-full rounded-lg md:rounded-xl border border-slate-200 px-3 md:px-4 py-2.5 md:py-3 text-sm transition-colors focus:border-blue-400 focus:outline-none"
                   />
                   {showError("company") && (
                     <span id="error-company" className="text-xs text-red-600">
@@ -374,7 +374,7 @@ export default function ContactForm() {
 
               <fieldset className="space-y-3">
                 <legend className="text-sm font-semibold text-slate-700">
-                  Funcao / Setor *
+                  Função / Setor *
                 </legend>
                 <div className="flex flex-wrap gap-3">
                   {Object.entries(personaSpecificFields).map(([key]) => (
@@ -396,7 +396,7 @@ export default function ContactForm() {
                       />
                       {key === "compras" && "Compras"}
                       {key === "usinagem" && "Usinagem"}
-                      {key === "direcao" && "Direcao"}
+                      {key === "direcao" && "Direção"}
                     </label>
                   ))}
                 </div>
@@ -479,7 +479,7 @@ export default function ContactForm() {
                 Atendimento
               </p>
               <p className="text-base text-slate-600">
-                Retornamos em ate 1 dia util com um plano inicial e horarios para aprofundar o cenario.
+                Retornamos em até 1 dia útil com um plano inicial e horários para aprofundar o cenário.
               </p>
               <div className="space-y-5">
                 {sidebarInfo.map((item) => {

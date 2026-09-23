@@ -6,21 +6,21 @@ import { Eye, ShieldCheck, Target } from "lucide-react";
 
 const items = [
   {
-    title: "Missao",
+    title: "Missão",
     description:
-      "Garantir independencia tecnologica para as fabricas, conectando dados operacionais a resultados financeiros sem vies.",
+      "Garantir independência tecnológica para as fábricas, conectando dados operacionais a resultados financeiros sem viés.",
     icon: Target,
   },
   {
-    title: "Visao",
+    title: "Visão",
     description:
-      "Ser a referencia latino-americana em monitoramento neutro de usinagem, com implantacoes em menos de 30 dias.",
+      "Ser a referência latino-americana em monitoramento neutro de usinagem, com implantações em menos de 30 dias.",
     icon: Eye,
   },
   {
     title: "Valores",
     description:
-      "Transparencia radical, respeito ao tempo do chao de fabrica e foco continuo em seguranca e retorno financeiro.",
+      "Transparência radical, respeito ao tempo do chão de fábrica e foco contínuo em segurança e retorno financeiro.",
     icon: ShieldCheck,
   },
 ];
@@ -34,10 +34,10 @@ export default function AboutMvv() {
             Mvv
           </span>
           <h2 className="text-3xl font-bold md:text-4xl">
-            O que guia cada implantacao
+            O que guia cada implantação
           </h2>
           <p className="mx-auto max-w-3xl text-base text-slate-600 md:text-lg">
-            Declaracoes simples para manter o foco na autonomia do cliente e no impacto real.
+            Declarações simples para manter o foco na autonomia do cliente e no impacto real.
           </p>
         </div>
 

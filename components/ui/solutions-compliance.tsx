@@ -9,7 +9,7 @@ const items = [
   {
     icon: ShieldCheck,
     title: "Perfis e assinaturas digitais",
-    description: "Toda retirada vinculada a operador, OS/OP, centro de custo e politica aprovada.",
+    description: "Toda retirada vinculada a operador, OS/OP, centro de custo e política aprovada.",
   },
   {
     icon: History,
@@ -29,7 +29,7 @@ export default function SolutionsCompliance() {
           </span>
           <h2 className="text-3xl font-bold md:text-4xl">Auditoria e compliance sem planilhas</h2>
           <p className="text-base text-slate-600 md:text-lg">
-            Cada evento do armario, dashboard ou API gera rastro unico, exportavel em PDF ou integrado ao
+            Cada evento do armário, dashboard ou API gera rastro único, exportável em PDF ou integrado ao
             seu GRC.
           </p>
 

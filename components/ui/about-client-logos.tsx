@@ -7,9 +7,9 @@ const logos = [
   { name: "Automotivo", src: "/assets/logo-automotivo.svg" },
   { name: "Energia", src: "/assets/logo-energia.svg" },
   { name: "Alimentos", src: "/assets/logo-alimentos.svg" },
-  { name: "Farmaceutico", src: "/assets/logo-farmaceutico.svg" },
-  { name: "Logistica", src: "/assets/logo-logistica.svg" },
-  { name: "Mineracao", src: "/assets/logo-mineracao.svg" },
+  { name: "Farmacêutico", src: "/assets/logo-farmaceutico.svg" },
+  { name: "Logística", src: "/assets/logo-logistica.svg" },
+  { name: "Mineração", src: "/assets/logo-mineracao.svg" },
 ];
 
 export default function AboutClientLogos() {
@@ -20,9 +20,9 @@ export default function AboutClientLogos() {
           <span className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
             Setores
           </span>
-          <h2 className="text-3xl font-bold md:text-4xl">Industrias que confiam para fazer melhor</h2>
+          <h2 className="text-3xl font-bold md:text-4xl">Indústrias que confiam para fazer melhor</h2>
           <p className="mx-auto max-w-2xl text-base text-slate-600 md:text-lg">
-            Trabalhamos com manutencao, engenharia e operacoes em segmentos diferentes para cruzar boas praticas.
+            Trabalhamos com manutenção, engenharia e operações em segmentos diferentes para cruzar boas práticas.
           </p>
         </div>
 

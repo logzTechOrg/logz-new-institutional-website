@@ -18,17 +18,17 @@ const lockerImages = Array.from({ length: 6 }).map((_, index) => ({
 }));
 
 const specs = [
-  { label: "Colunas / Gavetas", value: "De 2 a 6 colunas, ate 48 gavetas" },
-  { label: "Eletronica", value: "Controladora proprietaria Log Z" },
+  { label: "Colunas / Gavetas", value: "De 2 a 6 colunas, até 48 gavetas" },
+  { label: "Eletrônica", value: "Controladora proprietária Log Z" },
   { label: "Rede", value: "Ethernet, 4G ou Wi-Fi industrial" },
   {
     label: "Offline",
-    value: "Buffer de 24h com sincronizacao automatica",
+    value: "Buffer de 24h com sincronização automática",
     tooltip: "O locker continua liberando itens mesmo sem rede e sincroniza assim que reconectar.",
   },
 ];
 
-const diagramSteps = ["Operador", "Armario Inteligente", "Plataforma / ERP"];
+const diagramSteps = ["Operador", "Armário Inteligente", "Plataforma / ERP"];
 
 export default function SolutionsLockerGallery() {
   const [selectedImage, setSelectedImage] = useState<(typeof lockerImages)[number] | null>(null);
@@ -44,11 +44,11 @@ export default function SolutionsLockerGallery() {
       <Container className="space-y-10">
         <div className="space-y-3 text-center">
           <span className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
-            Armarios inteligentes
+            Armários inteligentes
           </span>
-          <h2 className="text-3xl font-bold md:text-4xl">Controle fisico com telemetria completa</h2>
+          <h2 className="text-3xl font-bold md:text-4xl">Controle físico com telemetria completa</h2>
           <p className="mx-auto max-w-3xl text-base text-slate-600 md:text-lg">
-            Diferentes formatos de lockers com sensores de abertura, leitura de badge e monitoramento continuo.
+            Diferentes formatos de lockers com sensores de abertura, leitura de badge e monitoramento contínuo.
           </p>
         </div>
 
@@ -77,7 +77,7 @@ export default function SolutionsLockerGallery() {
 
           <div className="space-y-6">
             <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold text-slate-900">Especificacoes tecnicas</h3>
+              <h3 className="text-lg font-semibold text-slate-900">Especificações técnicas</h3>
               <dl className="mt-4 space-y-4">
                 {specs.map((spec) => (
                   <div key={spec.label} className="flex items-start gap-3">
@@ -92,7 +92,7 @@ export default function SolutionsLockerGallery() {
                               className="ml-2 inline-flex h-5 w-5 items-center justify-center rounded-full border border-slate-200 text-slate-500"
                             >
                               <Info className="h-3 w-3" />
-                              <span className="sr-only">Explicacao do modo offline</span>
+                              <span className="sr-only">Explicação do modo offline</span>
                             </button>
                           </TooltipTrigger>
                           <TooltipContent className="max-w-xs text-left" side="top">
@@ -132,7 +132,7 @@ export default function SolutionsLockerGallery() {
           {selectedImage && (
             <>
               <DialogTitle>{selectedImage.alt}</DialogTitle>
-              <DialogDescription>Visualize o locker em alta resolucao.</DialogDescription>
+              <DialogDescription>Visualize o locker em alta resolução.</DialogDescription>
               <Image
                 src={selectedImage.src}
                 alt={selectedImage.alt}

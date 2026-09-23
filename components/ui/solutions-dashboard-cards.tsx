@@ -24,7 +24,7 @@ const dashboards = [
   },
   {
     title: "Alertas de ruptura / validade",
-    description: "Receba alertas antecipados por familia de itens e turno de operacao.",
+    description: "Receba alertas antecipados por família de itens e turno de operação.",
     image: "/assets/dash-3.png",
   },
 ];
@@ -37,7 +37,7 @@ export default function SolutionsDashboardCards() {
           <span className="text-xs font-semibold uppercase tracking-[0.35em] text-white">
             Dashboards & Indicadores
           </span>
-          <h2 className="text-3xl text-white font-bold md:text-4xl">Decisoes em minutos, nao em planilhas</h2>
+          <h2 className="text-3xl text-white font-bold md:text-4xl">Decisões em minutos, não em planilhas</h2>
           <p className="mx-auto max-w-3xl text-base text-slate-200 md:text-lg">
             Clique em cada card para abrir o painel completo em modo drawer.
           </p>
