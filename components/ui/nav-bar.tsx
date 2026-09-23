@@ -111,7 +111,7 @@ export function NavBar() {
             Fale com a gente
           </Link>
           <Link
-            href="https://logzweb.vercel.app/"
+            href="https://plataforma.logztech.com.br"
             target="_blank"
             rel="noopener noreferrer"
             className={cn(loginClasses, "hidden md:inline-flex")}
